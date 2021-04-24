@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 public class findElement{
@@ -15,11 +15,12 @@ public static void main(String[] args) throws Exception {
     } 
     
       int find = sc.nextInt();
-    int res = findElement(arr,find);
+      sc.close();
+    int res = findElements(arr,find);
     System.out.println(res);
     
  }
- public static int findElement(int[] arr,int find)
+ public static int findElements(int[] arr,int find)
  {
      for(int idx=0;idx<arr.length;idx++)
      {
