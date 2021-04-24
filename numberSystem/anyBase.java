@@ -15,7 +15,7 @@ import java.util.*;
       int pv = 0;
       int rem = 0;
       int pos = 0;
-      while(n>0)
+      while(n>0)11020
       {
           rem = n%10;
           pv = pv+rem*(int)Math.pow(b,pos);
